@@ -20,3 +20,5 @@ const stringifyMakeing = JSON.stringify(shop);
 // console.log(stringifyMakeing);
 const parse = JSON.parse(stringifyMakeing);
 // console.log(parse);
+const array = { hobbies: ["dancing", "singing", "acting"] };
+console.log(JSON.stringify(array));
